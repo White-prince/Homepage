@@ -153,15 +153,16 @@ a.but {
   } 
 a.but:hover { background: #5265f6; }
  .text {
-    width: 29ch;
+    width: 240px;
     color: white;
     white-space: nowrap;  /* не переносить текст на другую строку */
     overflow: hidden; /* скрываем переполнение контентом */
     border-right: 2px solid white; /* рисуем курсор */
     animation: cursor 0.75s step-end infinite,
     printed_text 5s steps(29);
-    position: relative;
+    position: absolute;
     margin-top: 2.5%;
+    margin-left: 10%;
     text-align: center;
 }
   @keyframes cursor {
