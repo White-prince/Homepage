@@ -247,7 +247,6 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
   }
 }
-
 @media only screen and (max-width: 992px) {
   .wrapper{
     width: 750px;
@@ -255,6 +254,7 @@ a.but:hover { background: #5265f6; }
   body{
     font-family: 'Elianto';
     color: #fff;
+    background-image: url();
     background-color: #202023;
   }
   .hat{
@@ -282,7 +282,7 @@ a.but:hover { background: #5265f6; }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 40%;
+    top: 10%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
@@ -503,6 +503,7 @@ a.but:hover { background: #5265f6; }
   body{
     font-family: 'Elianto';
     color: #fff;
+    background-image: url();
     background-color: #202023;
   }
   .hat{
@@ -530,7 +531,7 @@ a.but:hover { background: #5265f6; }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 40%;
+    top: 10%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
@@ -744,13 +745,14 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 480px) {
   .wrapper{
     width: 750px;
   }
   body{
     font-family: 'Elianto';
     color: #fff;
+    background-image: url();
     background-color: #202023;
   }
   .hat{
@@ -778,7 +780,7 @@ a.but:hover { background: #5265f6; }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 40%;
+    top: 10%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
@@ -999,6 +1001,7 @@ a.but:hover { background: #5265f6; }
   body{
     font-family: 'Elianto';
     color: #fff;
+    background-image: url();
     background-color: #202023;
   }
   .hat{
@@ -1026,7 +1029,7 @@ a.but:hover { background: #5265f6; }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 40%;
+    top: 10%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
