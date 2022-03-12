@@ -1239,7 +1239,7 @@ a.but:hover { background: #5265f6; }
 }
 @media only screen and (max-width: 380px) {
   .wrapper{
-    width: 380px;
+    width: 3px;
   }
   body{
     font-family: 'Elianto';
@@ -1283,7 +1283,7 @@ a.but:hover { background: #5265f6; }
 .sor{
     font-size: 14px;
     position: absolute;
-    margin-top: 7.2%;
+    margin-top: 7.5%;
     margin-left: 65%;
     user-select: none;
     text-decoration: none;
@@ -1291,9 +1291,9 @@ a.but:hover { background: #5265f6; }
   }
 a.sor:hover {border-bottom: 1px double white;}
 .name{
-    font-size: 34px;
+    font-size: 24px;
     position: absolute;
-    top: 40%;
+    top: 44%;
     left: 44%;
     transform: translate(-50%, -50%);
   }
@@ -1478,9 +1478,9 @@ a.but:hover { background: #5265f6; }
   }
 .sho{
     position: absolute;
-    width: 1080;
+    width: 250px;
     height: 250px;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
