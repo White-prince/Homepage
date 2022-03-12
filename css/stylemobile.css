@@ -1065,8 +1065,8 @@ a.but:hover { background: #5265f6; }
 .sor{
     font-size: 14px;
     position: absolute;
-    margin-top: 4.3%;
-    margin-left: 62.5%;
+    top: 4.3%;
+    left: 62.5%;
     user-select: none;
     text-decoration: none;
     color: #fff;
@@ -1317,7 +1317,7 @@ a.but:hover { background: #5265f6; }
 .sor{
     font-size: 14px;
     position: absolute;
-    top: 23%;
+    top: 8%;
     left: 3%;
     user-select: none;
     text-decoration: none;
