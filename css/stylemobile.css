@@ -8,6 +8,10 @@
     background-image: url();
     background-color: #202023;
   }
+  .ts{
+    font-size: 14px;
+    text-align: center;
+  }
   .hat{
     color: #fff;
     background: #21262d;
@@ -85,7 +89,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 26%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -245,7 +249,7 @@ a.but:hover { background: #5265f6; }
     width: 1080;
     height: 250px;
     top: 15%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 }
@@ -258,6 +262,10 @@ a.but:hover { background: #5265f6; }
     color: #fff;
     background-image: url();
     background-color: #202023;
+  }
+  .ts{
+    font-size: 14px;
+    text-align: center;
   }
   .hat{
     color: #fff;
@@ -333,7 +341,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -493,7 +501,7 @@ a.but:hover { background: #5265f6; }
     width: 1080;
     height: 250px;
     top: 15%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 }
@@ -506,6 +514,10 @@ a.but:hover { background: #5265f6; }
     color: #fff;
     background-image: url();
     background-color: #202023;
+  }
+  .ts{
+    font-size: 14px;
+    text-align: center;
   }
   .hat{
     color: #fff;
@@ -581,7 +593,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -741,7 +753,7 @@ a.but:hover { background: #5265f6; }
     width: 1080;
     height: 250px;
     top: 15%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 }
@@ -754,6 +766,10 @@ a.but:hover { background: #5265f6; }
     color: #fff;
     background-image: url();
     background-color: #202023;
+  }
+  .ts{
+    font-size: 14px;
+    text-align: center;
   }
   .hat{
     color: #fff;
@@ -832,7 +848,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -992,7 +1008,7 @@ a.but:hover { background: #5265f6; }
     width: 1080;
     height: 250px;
     top: 15%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 }
@@ -1007,7 +1023,8 @@ a.but:hover { background: #5265f6; }
     background-color: #202023;
   }
   .ts{
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
   }
   .hat{
     color: #fff;
@@ -1086,7 +1103,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 26%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -1246,7 +1263,7 @@ a.but:hover { background: #5265f6; }
     width: 1080;
     height: 250px;
     top: 15%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 }
@@ -1300,8 +1317,8 @@ a.but:hover { background: #5265f6; }
 .sor{
     font-size: 14px;
     position: absolute;
-    top: 8%;
-    left: 1%;
+    top: 23%;
+    left: 3%;
     user-select: none;
     text-decoration: none;
     color: #fff;
@@ -1338,7 +1355,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 35.5%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -1498,7 +1515,7 @@ a.but:hover { background: #5265f6; }
     width: 220px;
     height: 220px;
     top: 20%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
   }
 }
