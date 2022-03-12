@@ -1320,7 +1320,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 300px;
     height: 35px;
     position: absolute;
-    top: 36%;
+    top: 35.5%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -1478,8 +1478,8 @@ a.but:hover { background: #5265f6; }
   }
 .sho{
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
