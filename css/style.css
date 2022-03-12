@@ -12,6 +12,10 @@ body{
     color: #fff;
     background-image: url(images/bkg.jpg);
     background-color: #202023;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
 }
 .hat{
     color: #fff;
@@ -29,17 +33,15 @@ body{
 }
 .footer{
     color: #718096;
-    text-align: center;
     position: absolute;
-    width: 100%;
-    height: 45px;
-    margin-bottom: 0 auto;
-    left:0px;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .mainn{
     position: absolute;
     font-size: 24px;
-    top: 20%;
+    top: 25%;
     left: 37%;
     transform: translate(-50%, -50%);
 }
@@ -47,16 +49,14 @@ body{
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 60%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+    margin-top: 1.4%;
+    margin-left: 59%;
 }
 .sor{
     font-size: 17px;
     position: absolute;
-    top: 60%;
-    left: 62.2%;
-    transform: translate(-50%, -50%);
+    margin-top: 1.6%;
+    margin-left: 60.3%;
     user-select: none;
     text-decoration: none;
     color: #fff;
@@ -152,24 +152,18 @@ a.but {
     transform: translate(-50%, -50%);
   } 
 a.but:hover { background: #5265f6; }
-.pos{
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
  .text {
-    width: 29ch;
+    width: 240px;
     color: white;
     white-space: nowrap;  /* не переносить текст на другую строку */
     overflow: hidden; /* скрываем переполнение контентом */
-    border-right: 3px solid white; /* рисуем курсор */
+    border-right: 2px solid white; /* рисуем курсор */
     animation: cursor 0.75s step-end infinite,
     printed_text 5s steps(29);
     position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 2.5%;
+    margin-left: 10%;
+    text-align: center;
 }
   @keyframes cursor {
     0%{
@@ -189,7 +183,7 @@ a.but:hover { background: #5265f6; }
     width: 24px;
     height: 24px;
     position: absolute;
-    margin-top: 1.1%;
+    margin-top: 1.3%;
     margin-left: 32%;
 }
 @-webkit-keyframes swing {
@@ -247,8 +241,8 @@ a.but:hover { background: #5265f6; }
   }
   
   .logop:hover {
-    -webkit-animation: swing 0.6s ease;
-    animation: swing 0.6s ease;
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
      -webkit-animation-iteration-count: 1;
      animation-iteration-count: 1;
   }
