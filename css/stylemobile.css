@@ -247,7 +247,7 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   .wrapper{
     width: 750px;
   }
@@ -268,22 +268,19 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  .content{
-    height: 900px;
-  }
 .footer{
     font-size: 15px;
     color: #718096;
     position: absolute;
-    top: 98%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 10%;
-    left: 37%;
+    top: 45%;
+    left: 35%;
     transform: translate(-50%, -50%);
   }
 .logogit{
@@ -296,8 +293,8 @@ a.but:hover { background: #5265f6; }
 .sor{
     font-size: 14px;
     position: absolute;
-    margin-top: 4.3%;
-    margin-left: 62.5%;
+    margin-top: 3.4%;
+    margin-left: 61.5%;
     user-select: none;
     text-decoration: none;
     color: #fff;
@@ -306,7 +303,7 @@ a.sor:hover {border-bottom: 1px double white;}
 .name{
     font-size: 30px;
     position: absolute;
-    top: 28%;
+    top: 33%;
     left: 45%;
     transform: translate(-50%, -50%);
   }
@@ -314,14 +311,14 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
-    top: 33%;
-    left: 65%;
+    top: 39%;
+    left: 60%;
     transform: translate(-50%, -50%);
   }
 .ops{
     font-size: 14px;
     position: absolute;
-    top: 33%;
+    top: 40%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
@@ -331,7 +328,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 300px;
     height: 35px;
     position: absolute;
-    top: 26%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -339,7 +336,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 43%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -347,7 +344,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 52%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -355,7 +352,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 62%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -363,7 +360,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 70%;
+    top: 88%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -388,7 +385,7 @@ a.but {
     padding: .7em 2em; 
     outline: none; 
     border-radius: 10px;
-    top: 77%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
@@ -421,10 +418,10 @@ a.but:hover { background: #5265f6; }
   }        
 .logop{
     position: absolute;
-    width:16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     position: absolute;
-    top: 31%;
+    top: 25%;
     margin-left: 28.5%;
   }
 @-webkit-keyframes swing {
@@ -517,21 +514,18 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  .content{
-    height: 900px;
-  }
 .footer{
     font-size: 15px;
     color: #718096;
     position: absolute;
-    top: 98%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 10%;
+    top: 43%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
@@ -553,25 +547,25 @@ a.but:hover { background: #5265f6; }
   }
 a.sor:hover {border-bottom: 1px double white;}
 .name{
-    font-size: 30px;
+    font-size: 36px;
     position: absolute;
-    top: 28%;
-    left: 45%;
+    top: 32%;
+    left: 43%;
     transform: translate(-50%, -50%);
   }
 .photo{
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
-    top: 33%;
+    top: 39%;
     left: 65%;
     transform: translate(-50%, -50%);
   }
 .ops{
-    font-size: 14px;
+    font-size: 17px;
     position: absolute;
-    top: 33%;
-    left: 46%;
+    top: 38%;
+    left: 44%;
     transform: translate(-50%, -50%);
   }
 .bor{
@@ -580,7 +574,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 300px;
     height: 35px;
     position: absolute;
-    top: 26%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -588,7 +582,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 43%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -596,7 +590,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 52%;
+    top: 71%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -604,7 +598,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 62%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -612,7 +606,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 70%;
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -637,7 +631,7 @@ a.but {
     padding: .7em 2em; 
     outline: none; 
     border-radius: 10px;
-    top: 77%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
@@ -747,7 +741,8 @@ a.but:hover { background: #5265f6; }
 }
 @media only screen and (max-width: 480px) {
   .wrapper{
-    width: 750px;
+    width: 500px;
+    height: 860px;
   }
   body{
     font-family: 'Elianto';
@@ -766,21 +761,19 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  .content{
-    height: 900px;
-  }
 .footer{
-    font-size: 15px;
+    width: 500px;
+    height: 30px;
+    font-size: 13px;
     color: #718096;
     position: absolute;
-    top: 98%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 110%;
+    text-align: center;
   }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 10%;
+    top: 40%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
@@ -788,14 +781,16 @@ a.but:hover { background: #5265f6; }
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 27%;
+    top: 30%;
     margin-left: 59%;
   }
 .sor{
+    width: 20px;
+    height: 30px;
     font-size: 14px;
     position: absolute;
-    margin-top: 4.3%;
-    margin-left: 62.5%;
+    margin-top: 6%;
+    margin-left: 64%;
     user-select: none;
     text-decoration: none;
     color: #fff;
@@ -804,7 +799,7 @@ a.sor:hover {border-bottom: 1px double white;}
 .name{
     font-size: 30px;
     position: absolute;
-    top: 28%;
+    top: 32%;
     left: 45%;
     transform: translate(-50%, -50%);
   }
@@ -812,14 +807,14 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
-    top: 33%;
-    left: 65%;
+    top: 39%;
+    left: 75%;
     transform: translate(-50%, -50%);
   }
 .ops{
     font-size: 14px;
     position: absolute;
-    top: 33%;
+    top: 37%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
@@ -829,7 +824,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 300px;
     height: 35px;
     position: absolute;
-    top: 26%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -837,7 +832,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 43%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -845,7 +840,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 52%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -853,7 +848,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 62%;
+    top: 74%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -861,7 +856,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 70%;
+    top: 82%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -886,7 +881,7 @@ a.but {
     padding: .7em 2em; 
     outline: none; 
     border-radius: 10px;
-    top: 77%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
@@ -922,8 +917,8 @@ a.but:hover { background: #5265f6; }
     width:16px;
     height: 16px;
     position: absolute;
-    top: 31%;
-    margin-left: 28.5%;
+    top: 37%;
+    margin-left: 25%;
   }
 @-webkit-keyframes swing {
     15% {
