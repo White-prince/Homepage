@@ -65,6 +65,8 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
+    width: 70px;
+    height: 70px;
     top: 33%;
     left: 65%;
     transform: translate(-50%, -50%);
@@ -311,6 +313,8 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
+    width: 70px;
+    height: 70px;
     top: 39%;
     left: 60%;
     transform: translate(-50%, -50%);
@@ -557,6 +561,8 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
+    width: 70px;
+    height: 70px;
     top: 39%;
     left: 65%;
     transform: translate(-50%, -50%);
@@ -806,6 +812,8 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
+    width: 70px;
+    height: 70px;
     top: 39%;
     left: 75%;
     transform: translate(-50%, -50%);
@@ -998,6 +1006,9 @@ a.but:hover { background: #5265f6; }
     background-image: url();
     background-color: #202023;
   }
+  .ts{
+    font-size: 16px;
+  }
   .hat{
     color: #fff;
     background: #21262d;
@@ -1055,6 +1066,8 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
+    width: 70px;
+    height: 70px;
     top: 33%;
     left: 65%;
     transform: translate(-50%, -50%);
@@ -1246,6 +1259,10 @@ a.but:hover { background: #5265f6; }
     color: #fff;
     background-image: url();
     background-color: #202023;
+  }
+  .ts{
+    font-size: 14px;
+    text-align: center;
   }
   .hat{
     color: #fff;
