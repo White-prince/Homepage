@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1200px) {
   .wrapper{
-    width: 1200px;
+    width: 860px;
   }
   body{
     font-family: 'Elianto';
@@ -23,21 +23,18 @@
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  .content{
-    height: 900px;
-  }
 .footer{
     font-size: 15px;
     color: #718096;
     position: absolute;
-    top: 98%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 .mainn{
     position: absolute;
     font-size: 15px;
-    top: 10%;
+    top: 47%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
@@ -45,14 +42,14 @@
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 27%;
+    top: 22%;
     margin-left: 59%;
   }
 .sor{
     font-size: 14px;
     position: absolute;
-    margin-top: 4.3%;
-    margin-left: 62.5%;
+    margin-top: 2.8%;
+    margin-left: 61%;
     user-select: none;
     text-decoration: none;
     color: #fff;
@@ -61,7 +58,7 @@ a.sor:hover {border-bottom: 1px double white;}
 .name{
     font-size: 30px;
     position: absolute;
-    top: 28%;
+    top: 38%;
     left: 45%;
     transform: translate(-50%, -50%);
   }
@@ -69,16 +66,16 @@ a.sor:hover {border-bottom: 1px double white;}
     border-radius: 100px;
     border: 2px solid #5265f6;
     position: absolute;
-    width: 70px;
-    height: 70px;
-    top: 33%;
-    left: 65%;
+    width: 100px;
+    height: 100px;
+    top: 43%;
+    left: 60%;
     transform: translate(-50%, -50%);
   }
 .ops{
     font-size: 14px;
     position: absolute;
-    top: 33%;
+    top: 45%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
@@ -88,15 +85,15 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 300px;
     height: 35px;
     position: absolute;
-    top: 26%;
-    left: 55%;
+    top: 31%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 43%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -104,7 +101,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 52%;
+    top: 74%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -112,7 +109,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 62%;
+    top: 86%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -120,7 +117,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 70%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -145,7 +142,7 @@ a.but {
     padding: .7em 2em; 
     outline: none; 
     border-radius: 10px;
-    top: 77%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
@@ -182,7 +179,7 @@ a.but:hover { background: #5265f6; }
     height: 16px;
     position: absolute;
     top: 31%;
-    margin-left: 28.5%;
+    margin-left: 31.5%;
   }
 @-webkit-keyframes swing {
     15% {
@@ -246,16 +243,16 @@ a.but:hover { background: #5265f6; }
   }
 .sho{
     position: absolute;
-    width: 1080;
+    width: 250px;
     height: 250px;
     top: 15%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
 @media only screen and (max-width: 1024px) {
   .wrapper{
-    width: 1024px;
+    width: 860px;
   }
   body{
     font-family: 'Elianto';
@@ -282,7 +279,7 @@ a.but:hover { background: #5265f6; }
     font-size: 15px;
     color: #718096;
     position: absolute;
-    top: 105%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -341,7 +338,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 30%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -501,7 +498,7 @@ a.but:hover { background: #5265f6; }
     width: 1080;
     height: 250px;
     top: 15%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
@@ -534,7 +531,7 @@ a.but:hover { background: #5265f6; }
     font-size: 15px;
     color: #718096;
     position: absolute;
-    top: 110%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -593,7 +590,7 @@ a.sor:hover {border-bottom: 1px double white;}
     height: 35px;
     position: absolute;
     top: 30%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 .tblock1{
@@ -753,7 +750,7 @@ a.but:hover { background: #5265f6; }
     width: 1080;
     height: 250px;
     top: 15%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
@@ -788,7 +785,7 @@ a.but:hover { background: #5265f6; }
     font-size: 13px;
     color: #718096;
     position: absolute;
-    top: 110%;
+    top: 115%;
     text-align: center;
   }
 .mainn{
@@ -820,7 +817,7 @@ a.sor:hover {border-bottom: 1px double white;}
 .name{
     font-size: 30px;
     position: absolute;
-    top: 32%;
+    top: 34%;
     left: 45%;
     transform: translate(-50%, -50%);
   }
@@ -837,7 +834,7 @@ a.sor:hover {border-bottom: 1px double white;}
 .ops{
     font-size: 14px;
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 46%;
     transform: translate(-50%, -50%);
   }
@@ -855,7 +852,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -863,7 +860,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 62%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -871,7 +868,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 74%;
+    top: 86%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -879,7 +876,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 400px;
     height: 200px;
     position: absolute;
-    top: 82%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -904,7 +901,7 @@ a.but {
     padding: .7em 2em; 
     outline: none; 
     border-radius: 10px;
-    top: 90%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
   } 
