@@ -1034,9 +1034,6 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
     z-index: 1;
   }
-  .content{
-    height: 900px;
-  }
 .footer{
     font-size: 15px;
     color: #718096;
@@ -1062,8 +1059,8 @@ a.but:hover { background: #5265f6; }
 .sor{
     font-size: 14px;
     position: absolute;
-    top: 4.3%;
-    left: 62.5%;
+    margin-top: 6.7%;
+    margin-left: 62%;
     user-select: none;
     text-decoration: none;
     color: #fff;
