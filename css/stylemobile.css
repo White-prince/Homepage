@@ -256,7 +256,7 @@ a.but:hover { background: #5265f6; }
 }
 @media only screen and (max-width: 1024px) {
   .wrapper{
-    width: 860px;
+    width: 800px;
   }
   body{
     font-family: 'Elianto';
@@ -1063,8 +1063,8 @@ a.but:hover { background: #5265f6; }
 .sor{
     font-size: 14px;
     position: absolute;
-    margin-top: 6.7%;
-    margin-left: 62%;
+    top: 5%;
+    left: 15%;
     user-select: none;
     text-decoration: none;
     color: #fff;
@@ -1267,7 +1267,7 @@ a.but:hover { background: #5265f6; }
 }
 @media only screen and (max-width: 380px) {
   .wrapper{
-    width: 380px;
+    width: 320px;
   }
   body{
     font-family: 'Elianto';
