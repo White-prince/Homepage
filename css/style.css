@@ -15,10 +15,10 @@ body{
     color: #fff;
     background-image: url(images/bkg.jpg);
     background-color: #202023;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 }
 .hat{
     color: #fff;
@@ -26,19 +26,16 @@ body{
     width: 100%;
     height: 60px;
     position: fixed;
-    margin-top: 0 auto;
     left: 50%;
-    transform: translate(-50%, -50%); /* Центрирование обьектов */
-    z-index: 1; /* Выводим на первый план */
+    transform: translate(-50%, -50%); /* Таким методом центрируем обьекты */
+    z-index: 1;
 }
 .footer{
+    color: #718096;
     position: absolute;
     top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.fot{
-    color: #718096;
 }
 .osn{
     position: absolute;
@@ -154,6 +151,10 @@ a.but {
     padding: .7em 2em; 
     outline: none; 
     border-radius: 10px;
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    transform: translate:(-50%, -50%);
   } 
 a.but:hover { background: #5265f6; }
  .text {
@@ -222,6 +223,14 @@ a.but:hover { background: #5265f6; }
     width:100px;
     height: 100px;
     top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slt{
+    position: absolute;
+    width: 1080px;
+    height: 1000px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

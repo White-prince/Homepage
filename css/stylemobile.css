@@ -1,0 +1,223 @@
+/*
+Сss файл для мобильной версии
+*/
+@media screen and (max-width: 1200px)
+{
+body{
+    font-family: 'Elianto';
+    color: #fff;
+    background-image: url(images/bkg.jpg);
+    background-color: #202023;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.wrapper{
+
+}
+.osn{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.sot{
+    position: absolute;
+    top: 67%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+.trp{
+    position: absolute;
+    width: 200px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slt{
+    position: absolute;
+    width: 1080px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-width: 992px)
+{
+body{
+    font-family: 'Elianto';
+    color: #fff;
+    background-image: url();
+    background-color: #202023;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.wrapper{
+
+}
+.osn{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.sot{
+    position: absolute;
+    top: 67%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+.trp{
+    position: absolute;
+    width: 200px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slt{
+    position: absolute;
+    width: 1080px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-width: 768px)
+{
+body{
+    font-family: 'Elianto';
+    color: #fff;
+    background-image: url();
+    background-color: #202023;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.wrapper{
+    width: 450px;
+}
+.osn{
+    position: absolute;
+    top: 65%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+.sot{
+    position: absolute;
+    top: 67%;
+    left: 60.3%;
+    transform: translate(-50%, -50%);
+}
+.trp{
+    position: absolute;
+    width: 200px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slt{
+    position: absolute;
+    width: 1080px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+ @media screen and (max-width: 480px)
+{
+body{
+    font-family: 'Elianto';
+    color: #fff;
+    background-image: url();
+    background-color: #202023;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.wrapper{
+    width: 320px;
+}
+.osn{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.sot{
+    position: absolute;
+    top: 67%;
+    left: 60.3%;
+    transform: translate(-50%, -50%);
+}
+.trp{
+    position: absolute;
+    width: 200px;
+    height: 1000px;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.slt{
+    position: absolute;
+    width: 1080px;
+    height: 1000px;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+}
+ @media screen and (max-width: 320px)
+{
+body{
+    font-family: 'Elianto';
+    color: #fff;
+    background-image: url();
+    background-color: #202023;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.wrapper{
+width: 100px;
+}
+.osn{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.sot{
+    position: absolute;
+    top: 67%;
+    left: 60.3%;
+    transform: translate(-50%, -50%);
+}
+.trp{
+    position: absolute;
+    width: 200px;
+    height: 1000px;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+.slt{
+    position: absolute;
+    width: 1080px;
+    height: 1000px;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+}
