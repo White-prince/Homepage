@@ -14,6 +14,7 @@ body{
     background-size: 100%; /* Современные браузеры */
 }
 .wrapper{
+    width:992;
 }
 .osn{
     position: absolute;
@@ -56,6 +57,9 @@ body{
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
 }
+.wrapper{
+    width:768px;
+}
 .osn{
     position: absolute;
     top: 65%;
@@ -97,6 +101,9 @@ body{
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
 }
+.wrapper{
+    width:480px;
+}
 .osn{
     position: absolute;
     top: 65%;
@@ -137,6 +144,9 @@ body{
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
+}
+.wrapper{
+    width:320px;
 }
 .osn{
     position: absolute;
@@ -180,6 +190,9 @@ body{
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
 }
+.wrapper{
+    width:320px;
+}
 .osn{
     position: absolute;
     top: 65%;
@@ -219,6 +232,9 @@ body{
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
+}
+.wrapper{
+    width:100px;
 }
 .osn{
     position: absolute;
