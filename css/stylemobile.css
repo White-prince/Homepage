@@ -194,6 +194,9 @@ body{
 .wrapper{
     width:320px;
 }
+.sho{
+    height: 0px;
+}
 .osn{
     position: absolute;
     top: 65%;
@@ -215,6 +218,10 @@ body{
     top: 115%;
     left: 100%;
     transform: translate(-50%, -50%);
+}
+.content{
+    max-width{100%};
+    max-height{100%};
 }
 } @media screen and (max-width: 320px)
 {
