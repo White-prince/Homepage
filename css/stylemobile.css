@@ -22,10 +22,22 @@ body{
     left: 40%;
     transform: translate(-50%, -50%);
 }
-.sot{
-    position: absolute;
-    top: 67%;
-    left: 61%;
+.sor{
+    font-size: 17px;
+    user-select: none;
+    text-decoration: none;
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+}
+.logogit{
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 50%;
+    left: 170%;
     transform: translate(-50%, -50%);
 }
 .trp{
@@ -41,6 +53,13 @@ body{
     width: 700px;
     height: 50px;
     top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    color: #718096;
+    position: absolute;
+    top: 300%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -64,12 +83,6 @@ body{
     position: absolute;
     top: 65%;
     left: 40%;
-    transform: translate(-50%, -50%);
-}
-.sot{
-    position: absolute;
-    top: 67%;
-    left: 61%;
     transform: translate(-50%, -50%);
 }
 .trp{
@@ -110,12 +123,6 @@ body{
     left: 27%;
     transform: translate(-50%, -50%);
 }
-.sot{
-    position: absolute;
-    top: 67%;
-    left: 68%;
-    transform: translate(-50%, -50%);
-}
 .trp{
     position: absolute;
     width: 200px;
@@ -152,12 +159,6 @@ body{
     position: absolute;
     top: 65%;
     left: 40%;
-    transform: translate(-50%, -50%);
-}
-.sot{
-    position: absolute;
-    top: 67%;
-    left: 80%;
     transform: translate(-50%, -50%);
 }
 .trp{
@@ -199,12 +200,6 @@ body{
     left: 35%;
     transform: translate(-50%, -50%);
 }
-.sot{
-    position: absolute;
-    top: 67%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-}
 .trp{
     position: absolute;
     width: 200px;
@@ -242,17 +237,11 @@ body{
     left: 25%;
     transform: translate(-50%, -50%);
 }
-.sot{
-    position: absolute;
-    top: 67%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-}
 .trp{
     position: absolute;
     width: 200px;
     height: 1000px;
-    top: 50%;
+    top: 80%;
     left: 100%;
     transform: translate(-50%, -50%);
 }
@@ -262,6 +251,13 @@ body{
     height: 50px;
     top: 115%;
     left: 100%;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    color: #718096;
+    position: absolute;
+    top: 700%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 }

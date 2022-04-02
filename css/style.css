@@ -55,9 +55,9 @@ body{
 .logogit{
     width: 25px;
     height: 25px;
-    position: absolute;
+    position: fixed;
     top: 50%;
-    left: -18%;
+    left: 300%;
     transform: translate(-50%, -50%);
 }
 .sor{
@@ -65,6 +65,10 @@ body{
     user-select: none;
     text-decoration: none;
     color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 330%;
+    transform: translate(-50%, -50%);
 }
 a.sor:hover {border-bottom: 1px double white;}
 .name{
@@ -95,7 +99,7 @@ a.sor:hover {border-bottom: 1px double white;}
     width: 300px;
     height: 35px;
     position: absolute;
-    top: 100%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -200,15 +204,21 @@ a.but:hover { background: #5265f6; }
 .sho{
     width: 1080;
     height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .contain{
+    width: 1000px;
+    height: 500px;
     position: absolute;
     top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .containo{
-    position: absolute;
+    position: fixed;
     width: 500px;
     height: 200px;
     top: 39%;
