@@ -37,6 +37,8 @@ body{
 .footer{
     color: #718096;
     position: absolute;
+    width: 100%;
+    height: 100px;
     top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -245,10 +247,8 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
 }
 .slt{
-    position: absolute;
-    width: 700px;
-    height: 50px;
-    top: 105%;
-    left: 50%;
+    position:absolute;
+    bottom:0px;
+    left:50%;
     transform: translate(-50%, -50%);
 }
