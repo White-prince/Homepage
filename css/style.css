@@ -61,7 +61,7 @@ body{
     height: 25px;
     position: fixed;
     top: 50%;
-    left: 300%;
+    left: 330%;
     transform: translate(-50%, -50%);
 }
 .sor{
@@ -71,7 +71,7 @@ body{
     color: #fff;
     position: fixed;
     top: 50%;
-    left: 330%;
+    left: 360%;
     transform: translate(-50%, -50%);
 }
 a.sor:hover {border-bottom: 1px double white;}
@@ -206,7 +206,6 @@ a.but:hover { background: #5265f6; }
     transform: translate(-50%, -50%);
 }
 .sho{
-    width: 1080;
     height: 250px;
     position: absolute;
     top: 50%;
