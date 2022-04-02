@@ -37,7 +37,7 @@ body{
 .footer{
     color: #718096;
     position: absolute;
-    top: 105%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
