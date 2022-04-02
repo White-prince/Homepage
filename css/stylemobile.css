@@ -232,7 +232,7 @@ body{
     width:100px;
 }
 .sho{
-    height: 100px;
+    height: 0px;
     position: absolute;
     top: 65%;
     left: 50%;
