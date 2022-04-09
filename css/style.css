@@ -9,6 +9,7 @@
     url("font/Elianto-Regular.ttf") format("truetype");
     font-style: normal; 
     font-weight: normal;
+    zoom:100%
     }
 body{
     font-family: 'Elianto';
