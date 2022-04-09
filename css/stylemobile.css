@@ -3,310 +3,219 @@
 */
 @media screen and (max-width: 1200px)
 {
-body{
-    font-family: 'Elianto';
-    color: #fff;
-    background-image: url(images/bkg.jpg);
-    background-color: #202023;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-}
-.wrapper{
-    width:992;
-}
-.osn{
-    position: absolute;
-    top: 65%;
-    left: 42%;
-    transform: translate(-50%, -50%);
-}
-.sor{
-    font-size: 17px;
-    user-select: none;
-    text-decoration: none;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 200%;
-    transform: translate(-50%, -50%);
-}
-.logogit{
-    width: 25px;
-    height: 25px;
-    position: fixed;
-    top: 50%;
-    left: 170%;
-    transform: translate(-50%, -50%);
-}
-.trp{
-    position: absolute;
-    width: 200px;
-    height: 1000px;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.slt{
-    position:absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.footer{
-    color: #718096;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top:120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    body{
+        font-family: 'Elianto';
+        color: #fff;
+        background-image: url(images/bkg.jpg);
+        background-color: #202023;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
+    }
+    .osn{
+        position: absolute;
+        width:300px;
+        top: 5%;
+        left: 25%;
+    }
+    .osn1{
+        position: absolute;
+        width:300px;
+        top: 70%;
+        left: 60%;
+    }
+    .trp{
+        position: absolute;
+        width: 200px;
+        height: 1000px;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        color: #718096;
+        position: absolute;
+        bottom: -70px;
+        width: 100%;
+        height:20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+    }
 }
 @media screen and (max-width: 992px)
 {
-body{
-    font-family: 'Elianto';
-    color: #fff;
-    background-image: url();
-    background-color: #202023;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-}
-.wrapper{
-    width:768px;
-}
-.osn{
-    position: absolute;
-    top: 65%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-}
-.trp{
-    position: absolute;
-    width: 200px;
-    height: 1000px;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.slt{
-    position:absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.footer{
-    color: #718096;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top:120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    body{
+        font-family: 'Elianto';
+        color: #fff;
+        background-image: url();
+        background-color: #202023;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+    .osn{
+        position: absolute;
+        width:300px;
+        top: 5%;
+        left: 20%;
+    }
+    .osn1{
+        position: absolute;
+        width:300px;
+        top: 65%;
+        left: 60%;
+    }
+    .trp{
+        position: absolute;
+        width: 200px;
+        height: 1000px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        color: #718096;
+        position: absolute;
+        bottom: -70px;
+        width: 100%;
+        height:20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+    }
 }
 @media screen and (max-width: 768px)
 {
-body{
-    font-family: 'Elianto';
-    color: #fff;
-    background-image: url();
-    background-color: #202023;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-}
-.wrapper{
-    width:480px;
-}
-.osn{
-    position: absolute;
-    top: 65%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-}
-.trp{
-    position: absolute;
-    width: 200px;
-    height: 1000px;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.slt{
-    position:absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.footer{
-    color: #718096;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top:120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    .osn{
+        position: absolute;
+        width:300px;
+        top: 5%;
+        left: 20%;
+    }
+    .osn1{
+        position: absolute;
+        width:300px;
+        top: 65%;
+        left: 50%;
+    }
+    .trp{
+        position: absolute;
+        width: 200px;
+        height: 1000px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        color: #718096;
+        position: absolute;
+        bottom: -70px;
+        width: 100%;
+        height:20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+    }
 }
  @media screen and (max-width: 480px)
 {
-body{
-    font-family: 'Elianto';
-    color: #fff;
-    background-image: url();
-    background-color: #202023;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-}
-.wrapper{
-    width:320px;
-}
-.osn{
-    position: absolute;
-    top: 65%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-}
-.trp{
-    position: absolute;
-    width: 200px;
-    height: 1000px;
-    top: 55%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-}
-.slt{
-    position:absolute;
-    bottom:0px;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width:500px;
-}
-.footer{
-    color: #718096;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top: 120%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-}
+    .osn{
+        position: absolute;
+        width:300px;
+        top: 5%;
+        left: 20%;
+    }
+    .osn1{
+        position: absolute;
+        width:300px;
+        top: 65%;
+        left: 50%;
+    }
+    .trp{
+        position: absolute;
+        width: 200px;
+        height: 1000px;
+        top: 55%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        color: #718096;
+        position: absolute;
+        bottom: -40px;
+        width: 100%;
+        height:20px;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+    }
 }
 @media screen and (max-width: 390px)
 {
-body{
-    font-family: 'Elianto';
-    color: #fff;
-    background-image: url();
-    background-color: #202023;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-}
-.wrapper{
-    width:320px;
-}
-.sho{
-    height: 0px;
-}
-.osn{
-    position: absolute;
-    top: 65%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-}
-.trp{
-    position: absolute;
-    width: 200px;
-    height: 1000px;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-}
-.slt{
-    position:absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width:500px;
-}
-.footer{
-    color: #718096;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top:120%;
-    left: 125%;
-    transform: translate(-50%, -50%);
-}
-.content{
-    max-width{100%};
-    max-height{100%};
-}
+    .osn{
+        position: absolute;
+        width:300px;
+        top: 5%;
+        left: 25%;
+    }
+    .osn1{
+        position: absolute;
+        width:300px;
+        top: 65%;
+        left: 55%;
+    }
+    .trp{
+        position: absolute;
+        width: 200px;
+        height: 1000px;
+        top: 50%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        color: #718096;
+        position: absolute;
+        bottom: -10px;
+        width: 100%;
+        height:20px;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+    }
 }
 @media screen and (max-width: 320px)
 {
-body{
-    font-family: 'Elianto';
-    color: #fff;
-    background-image: url();
-    background-color: #202023;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-}
-.wrapper{
-    width:100px;
-}
-.sho{
-    height: 0px;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.osn{
-    position: absolute;
-    top: 65%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-}
-.trp{
-    position: absolute;
-    width: 200px;
-    height: 1000px;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-}
-.content{
-    max-width{100%};
-    max-height{100%};
-}
-.slt{
-    position:absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width:500px;
-}
-.footer{
-    color: #718096;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top:120%;
-    left: 125%;
-    transform: translate(-50%, -50%);
-}
+    .osn{
+        position: absolute;
+        width:300px;
+        top: 5%;
+        left: 20%;
+    }
+    .osn1{
+        position: absolute;
+        width:300px;
+        top: 65%;
+        left: 50%;
+    }
+    .trp{
+        position: absolute;
+        width: 200px;
+        height: 900px;
+        top: 55%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        color: #718096;
+        position: absolute;
+        bottom: -50px;
+        width: 100%;
+        height:20px;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        text-align:center;
+    }
 }

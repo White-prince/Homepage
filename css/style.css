@@ -1,7 +1,7 @@
 /* 
 Основной css файл
 */
-@font-face {
+@font-face { /* Добавляем шрифт */
     font-family: "Elianto";
     src: url("font/Elianto-Regular.eot");
     src: url("font/Elianto-Regular.eot?#iefix") format("embedded-opentype"),
@@ -15,12 +15,12 @@ body{
     color: #fff;
     background-image: url(images/bkg.jpg);
     background-color: #202023;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
 }
-.hat{
+.hat{ /* Шапка */
     color: #fff;
     background: #21262d;
     width: 100%;
@@ -30,24 +30,15 @@ body{
     transform: translate(-50%, -50%); /* Таким методом центрируем обьекты */
     z-index: 1;
 }
-.content{
-    max-width{100%};
-    max-height{100%};
-}
-.footer{
+.footer{ /* Подвал */
     color: #718096;
     position: absolute;
+    bottom: -100px;
     width: 100%;
-    height: 100px;
-    top: 115%;
+    height:20px;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.osn{
-    position: absolute;
-    top: 65%;
-    left: 37%;
-    transform: translate(-50%, -50%);
+    text-align:center;
 }
 .sot{
     position: absolute;
@@ -55,28 +46,38 @@ body{
     left: 60.3%;
     transform: translate(-50%, -50%);
 }
-.main{
+.main{ /* Текст в шапке */
     font-size: 24px;
 }
-.logogit{
+.logogit{ /* Лого в шапке */
     width: 25px;
     height: 25px;
-    position: fixed;
-    top: 50%;
-    left: 330%;
+    position: absolute;
     transform: translate(-50%, -50%);
 }
-.sor{
+.osn{ /* Расположение в шапке */
+    position: absolute;
+    width: 300px;
+    top: 5%;
+    left: 35%;
+}
+.osn1{ /* Расположение в шапке 2 */
+    position: absolute;
+    width: 300px;
+    top: 70%;
+    left: 60%;
+}
+.sor{ /* Текст в шапке */
     font-size: 17px;
     user-select: none;
     text-decoration: none;
     color: #fff;
-    position: fixed;
+    position: absolute;
     top: 50%;
-    left: 360%;
+    left: 15%;
     transform: translate(-50%, -50%);
 }
-a.sor:hover {border-bottom: 1px double white;}
+a.sor:hover {border-bottom: 1px double white;} /* анимация */
 .name{
     font-size: 45px;
     position: absolute;
@@ -109,7 +110,7 @@ a.sor:hover {border-bottom: 1px double white;}
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.tblock1{
+.tblock1{ /* блоки */
     width: 400px;
     height: 200px;
     position: absolute;
@@ -150,13 +151,7 @@ a.sor:hover {border-bottom: 1px double white;}
     text-decoration: none;
     color: #fff;
 }
-a.lin:hover {border-bottom: 1px double white;}
-a.butpos{
-    position: absolute;
-    top: 95%;
-    left: 25%;
-    transform: translate:(-50%, -50%);
-}
+a.lin:hover {border-bottom: 1px double white;} /* анимация */
 a.but {
     font-size: 16px;
     color: #fff; 
@@ -171,7 +166,7 @@ a.but {
     left: 25%;
     transform: translate:(-50%, -50%);
   } 
-a.but:hover { background: #5265f6; }
+a.but:hover { background: #5265f6; } /* анимация */
  .text {
     width: 240px;
     color: white;
@@ -199,12 +194,11 @@ a.but:hover { background: #5265f6; }
     }
 }        
 .logop{
-    position: absolute;
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 48%;
-    left: -6%;
+    top: 47%;
+    left: -5%;
     transform: translate(-50%, -50%);
 }
 .sho{
@@ -233,7 +227,7 @@ a.but:hover { background: #5265f6; }
 .trp{
     position: absolute;
     width: 200px;
-    height: 1000px;
+    height: 900px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -244,11 +238,5 @@ a.but:hover { background: #5265f6; }
     height: 100px;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
-.slt{
-    position:absolute;
-    bottom:0px;
-    left:50%;
     transform: translate(-50%, -50%);
 }
