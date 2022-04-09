@@ -14,11 +14,16 @@ body{
     font-family: 'Elianto';
     color: #fff;
     background-image: url(images/bkg.jpg);
+    background-attachment: local;
     background-color: #202023;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
+    margin: 0;
+    width:100%;
+    height:1000px;
+    position: absolute;
 }
 .hat{ /* Шапка */
     color: #fff;
@@ -33,18 +38,10 @@ body{
 .footer{ /* Подвал */
     color: #718096;
     position: absolute;
-    bottom: -100px;
+    left:0;
+    bottom: -5%;
     width: 100%;
-    height:20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align:center;
-}
-.sot{
-    position: absolute;
-    top: 67%;
-    left: 60.3%;
-    transform: translate(-50%, -50%);
 }
 .main{ /* Текст в шапке */
     font-size: 24px;
@@ -81,7 +78,7 @@ a.sor:hover {border-bottom: 1px double white;} /* анимация */
 .name{
     font-size: 45px;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 40%;
     transform: translate(-50%, -50%);
 }
@@ -96,7 +93,7 @@ a.sor:hover {border-bottom: 1px double white;} /* анимация */
 .ops{
     font-size: 20px;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 45%;
     transform: translate(-50%, -50%);
 }
@@ -106,39 +103,35 @@ a.sor:hover {border-bottom: 1px double white;} /* анимация */
     width: 300px;
     height: 35px;
     position: absolute;
-    top: 75%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .tblock1{ /* блоки */
     width: 400px;
-    height: 200px;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .tblock2{
     width: 400px;
-    height: 200px;
     position: absolute;
-    top: 66%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .tblock3{
     width: 400px;
-    height: 200px;
     position: absolute;
-    top: 79%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .tblock4{
     width: 400px;
-    height: 200px;
     position: absolute;
-    top: 87%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -162,9 +155,7 @@ a.but {
     outline: none; 
     border-radius: 10px;
     position: absolute;
-    top: 95%;
-    left: 25%;
-    transform: translate:(-50%, -50%);
+    left: 47%;
   } 
 a.but:hover { background: #5265f6; } /* анимация */
  .text {
@@ -209,34 +200,33 @@ a.but:hover { background: #5265f6; } /* анимация */
     transform: translate(-50%, -50%);
 }
 .contain{
-    width: 1000px;
-    height: 500px;
+    width: 500px;
+    height: 250px;
     position: absolute;
     top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .containo{
-    position: fixed;
+    position: relative;
     width: 500px;
-    height: 200px;
+    height: 140px;
     top: 39%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.trp{
+.content{
     position: absolute;
-    width: 200px;
-    height: 900px;
-    top: 50%;
-    left: 50%;
+    width: 100%;
+    height: 100%;
+    top:45%;
+    left:50%;
     transform: translate(-50%, -50%);
 }
-.bpos{
-    position: absolute;
-    width:100px;
-    height: 100px;
-    top: 100%;
+.butpos{
+    position: relative;
+    width: 100%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
