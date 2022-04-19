@@ -9,13 +9,13 @@
     url("font/Elianto-Regular.ttf") format("truetype");
     font-style: normal; 
     font-weight: normal;
-    zoom:100%
+    zoom:100%;
     }
 body{
     font-family: 'Elianto';
     color: #fff;
     background-image: url(images/bkg.jpg);
-    background-attachment: local;
+    background-attachment: scroll;
     background-color: #202023;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -30,7 +30,7 @@ body{
     color: #fff;
     background: #21262d;
     width: 100%;
-    height: 60px;
+    height: 80px;
     position: fixed;
     left: 50%;
     transform: translate(-50%, -50%); /* Таким методом центрируем обьекты */
@@ -56,13 +56,13 @@ body{
 .osn{ /* Расположение в шапке */
     position: absolute;
     width: 300px;
-    top: 5%;
+    top: 25%;
     left: 35%;
 }
 .osn1{ /* Расположение в шапке 2 */
     position: absolute;
     width: 300px;
-    top: 70%;
+    top: 75%;
     left: 60%;
 }
 .sor{ /* Текст в шапке */

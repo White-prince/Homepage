@@ -17,17 +17,20 @@
         width:100%;
         height:1000px;
         position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        zoom:100%;
     }
     .osn{
         position: absolute;
         width:300px;
-        top: 5%;
+        top: 25%;
         left: 25%;
     }
     .osn1{
         position: absolute;
         width:300px;
-        top: 70%;
+        top: 75%;
         left: 65%;
     }
     .butpos{
@@ -62,17 +65,20 @@
         width:100%;
         height:1000px;
         position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        zoom:100%;
     }
     .osn{
         position: absolute;
         width:300px;
-        top: 5%;
+        top: 25%;
         left: 25%;
     }
     .osn1{
         position: absolute;
         width:300px;
-        top: 70%;
+        top: 75%;
         left: 65%;
     }
     .butpos{
@@ -107,17 +113,20 @@
         width:100%;
         height:1000px;
         position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        zoom:100%;
     }
     .osn{
         position: absolute;
         width:300px;
-        top: 5%;
+        top: 25%;
         left: 25%;
     }
     .osn1{
         position: absolute;
         width:300px;
-        top: 70%;
+        top: 75%;
         left: 65%;
     }
     .butpos{
@@ -152,18 +161,21 @@
         width:100%;
         height:1000px;
         position: absolute;
+        font-style: normal;
+        font-weight: normal;
+        zoom:100%;
     }
     .osn{
         position: absolute;
         width:300px;
-        top: 5%;
+        top: 25%;
         left: 12%;
     }
     .osn1{
         position: absolute;
         width:300px;
-        top: 70%;
-        left: 65%;
+        top: 75%;
+        left: 70%;
     }
     .butpos{
     position: relative;
@@ -198,17 +210,20 @@
         height:1000px;
         position: absolute;
         left:20%;
+        font-style: normal;
+        font-weight: normal;
+        zoom:100%;
     }
     .osn{
         position: absolute;
         width:300px;
-        top: 5%;
-        left: 20%;
+        top: 25%;
+        left: 15%;
     }
     .osn1{
         position: absolute;
         width:300px;
-        top: 70%;
+        top: 75%;
         left: 70%;
     }
     .butpos{
@@ -244,17 +259,20 @@
         height:1000px;
         position: absolute;
         left:20%;
+        font-style: normal;
+        font-weight: normal;
+        zoom:100%;
     }
     .osn{
         position: absolute;
         width:300px;
-        top: 5%;
+        top: 25%;
         left: 8%;
     }
     .osn1{
         position: absolute;
         width:300px;
-        top: 70%;
+        top: 75%;
         left: 75%;
     }
     .butpos{
