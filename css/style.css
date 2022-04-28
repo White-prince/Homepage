@@ -9,7 +9,6 @@
     url("font/Elianto-Regular.ttf") format("truetype");
     font-style: normal; 
     font-weight: normal;
-    zoom:100%;
     }
 body{
     font-family: 'Elianto';
@@ -25,6 +24,7 @@ body{
     width:100%;
     height:1000px;
     position: absolute;
+    zoom:100%;
 }
 .hat{ /* Шапка */
     color: #fff;
